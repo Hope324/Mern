@@ -13,11 +13,11 @@ const handleErrors = (err) => {
 
   console.log(err);
   if (err.message === "incorrect email") {
-    errors.email = "That email is not registered";
+    errors.email = "That email is not alive";
   }
 
   if (err.message === "incorrect password") {
-    errors.password = "That password is incorrect";
+    errors.password = "That password is not alive";
   }
 
   if (err.code === 11000) {

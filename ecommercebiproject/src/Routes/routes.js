@@ -10,6 +10,7 @@ import InsertCategory from '../Admin/InsertCategory'
 import Cart from '../components/Cart'
 import Modal from '../components/Modal'
 import Insertproduct from '../Admin/Insertproduct'
+import Popup from '../components/Popup'
 function Routess() {
     return (
         <Routes>
@@ -22,6 +23,7 @@ function Routess() {
             <Route path='/Insertproduct' element={<Insertproduct/>} />
             <Route path='/cart' element={<Cart/>} />
             <Route path='/modal/:id' element={<Modal/>} />
+            <Route path='/Popup' element={<Popup/>} />
 
         </Routes>
 
